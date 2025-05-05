@@ -16,7 +16,8 @@ driveguard/
 │ └── ml-section/
 │ └── repo/ # Contains API call logic to ML server
 ├── ml/ # Python backend (Machine Learning models)
-├── app3.py # Main server file to run ML backend
+│ └── accident-prd
+|    └── app3.py # Main server file to run ML backend
 
 ```
 ---
