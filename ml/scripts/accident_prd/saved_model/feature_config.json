@@ -1,0 +1,25 @@
+{
+    "numerical": [
+        "Speed_Limit",
+        "Number_of_Vehicles",
+        "Driver_Age",
+        "Driver_Experience",
+        "Traffic_Density"
+    ],
+    "categorical": [
+        "Weather",
+        "Road_Type",
+        "Time_of_Day",
+        "Road_Condition",
+        "Vehicle_Type",
+        "Road_Light_Condition"
+    ],
+    "derived": {
+        "Is_Night": "lambda x: 1 if x['Time_of_Day'] in ['night', 'dark'] else 0",
+        "Is_Extreme_Weather": "lambda x: 1 if x['Weather'] in ['thunderstorm', 'snow'] else 0",
+        "Risk_Vehicle": "lambda x: 1 if x['Vehicle_Type'] == 'motorcycle' else 0",
+        "Experience_Ratio": "lambda x: x['Driver_Experience'] / max(1, x['Driver_Age'] - 18)",
+        "Speed_Ratio": "lambda x: x['Speed_Limit'] / 120.0",
+        "Traffic_Intensity": "lambda x: x['Traffic_Density'] * x['Number_of_Vehicles'] / 10.0"
+    }
+}

@@ -1,0 +1,462 @@
+{
+  "accuracy": 0.8563311688311688,
+  "classification_report": {
+    "0.0": {
+      "precision": 0.8572597137014315,
+      "recall": 0.9976201808662541,
+      "f1-score": 0.9221293444786626,
+      "support": 2101.0
+    },
+    "1.0": {
+      "precision": 0.7368421052631579,
+      "recall": 0.03856749311294766,
+      "f1-score": 0.07329842931937172,
+      "support": 363.0
+    },
+    "accuracy": 0.8563311688311688,
+    "macro avg": {
+      "precision": 0.7970509094822946,
+      "recall": 0.5180938369896009,
+      "f1-score": 0.49771388689901713,
+      "support": 2464.0
+    },
+    "weighted avg": {
+      "precision": 0.8395196196011502,
+      "recall": 0.8563311688311688,
+      "f1-score": 0.7970783614418028,
+      "support": 2464.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2096,
+      5
+    ],
+    [
+      349,
+      14
+    ]
+  ],
+  "feature_importance": [
+    [
+      "Number_of_vehicles_involved",
+      0.28122187032997226
+    ],
+    [
+      "Number_of_casualties",
+      0.1237731363288048
+    ],
+    [
+      "Hour_of_Day",
+      0.07589856176599691
+    ],
+    [
+      "Light_conditions_Darkness - no lighting",
+      0.04569433469026191
+    ],
+    [
+      "Weather_conditions_Unknown",
+      0.043987804094023794
+    ],
+    [
+      "Age_band_of_driver_Under 18",
+      0.026348499076886123
+    ],
+    [
+      "Day_of_week_Monday",
+      0.019894384788975605
+    ],
+    [
+      "Day_of_week_Friday",
+      0.017113643786781572
+    ],
+    [
+      "Age_band_of_driver_Unknown",
+      0.014999346090581938
+    ],
+    [
+      "Light_conditions_Darkness - lights lit",
+      0.013528077059559529
+    ],
+    [
+      "Types_of_Junction_Unknown",
+      0.012764239631026332
+    ],
+    [
+      "Sex_of_driver_Female",
+      0.012751799678250762
+    ],
+    [
+      "Types_of_Junction_Other",
+      0.012532127800111146
+    ],
+    [
+      "Types_of_Junction_Crossing",
+      0.012382844040291701
+    ],
+    [
+      "Day_of_week_Sunday",
+      0.01228551271969698
+    ],
+    [
+      "Road_surface_type_Gravel roads",
+      0.010821682894567506
+    ],
+    [
+      "Day_of_week_Saturday",
+      0.01072527075083348
+    ],
+    [
+      "Driving_experience_No Licence",
+      0.010520736154970027
+    ],
+    [
+      "Cause_of_accident_Driving to the left",
+      0.010217979284545944
+    ],
+    [
+      "Road_surface_conditions_Wet or damp",
+      0.009352217129855143
+    ],
+    [
+      "Types_of_Junction_T Shape",
+      0.008775191444414715
+    ],
+    [
+      "Light_conditions_Daylight",
+      0.008627759783415633
+    ],
+    [
+      "Type_of_vehicle_Long lorry",
+      0.008316594846272833
+    ],
+    [
+      "Age_band_of_driver_31-50",
+      0.00819127724825591
+    ],
+    [
+      "Type_of_vehicle_Other",
+      0.008120164490959638
+    ],
+    [
+      "Types_of_Junction_No junction",
+      0.008007720720966565
+    ],
+    [
+      "Cause_of_accident_No distancing",
+      0.007059595602296024
+    ],
+    [
+      "Types_of_Junction_O Shape",
+      0.006480190068300761
+    ],
+    [
+      "Type_of_vehicle_Lorry (11?40Q)",
+      0.006267589618932475
+    ],
+    [
+      "Weather_conditions_Cloudy",
+      0.005806169591907384
+    ],
+    [
+      "Types_of_Junction_Y Shape",
+      0.005643153464428971
+    ],
+    [
+      "Type_of_vehicle_Motorcycle",
+      0.005621208144263702
+    ],
+    [
+      "Age_band_of_driver_Over 51",
+      0.005509695466467093
+    ],
+    [
+      "Type_of_vehicle_Turbo",
+      0.005492812510607741
+    ],
+    [
+      "Weather_conditions_Normal",
+      0.005436060162056115
+    ],
+    [
+      "Road_surface_conditions_Dry",
+      0.005335082154956596
+    ],
+    [
+      "Cause_of_accident_Driving at high speed",
+      0.005175721066886168
+    ],
+    [
+      "Road_surface_type_Unknown",
+      0.005042601509341019
+    ],
+    [
+      "Cause_of_accident_Overtaking",
+      0.004985337093886359
+    ],
+    [
+      "Type_of_vehicle_Pick up upto 10Q",
+      0.00467902200630739
+    ],
+    [
+      "Weather_conditions_Other",
+      0.004672066898916848
+    ],
+    [
+      "Driving_experience_Below 1yr",
+      0.0044727899935272765
+    ],
+    [
+      "Cause_of_accident_Overspeed",
+      0.004415637540470541
+    ],
+    [
+      "Day_of_week_Thursday",
+      0.00419121353396845
+    ],
+    [
+      "Cause_of_accident_No priority to vehicle",
+      0.004061442345209565
+    ],
+    [
+      "Driving_experience_Unknown",
+      0.0035792082962390593
+    ],
+    [
+      "Driving_experience_1-2yr",
+      0.0034650564633887846
+    ],
+    [
+      "Cause_of_accident_Driving carelessly",
+      0.003365527187383396
+    ],
+    [
+      "Light_conditions_Darkness - lights unlit",
+      0.003246114379223941
+    ],
+    [
+      "Type_of_vehicle_Public (> 45 seats)",
+      0.0032247365233554082
+    ],
+    [
+      "Type_of_vehicle_Lorry (41?100Q)",
+      0.003033345176227692
+    ],
+    [
+      "Type_of_vehicle_Special vehicle",
+      0.0029427636140141877
+    ],
+    [
+      "Road_surface_type_Earth roads",
+      0.0027497659990749416
+    ],
+    [
+      "Road_allignment_Sharp reverse curve",
+      0.00261035757566358
+    ],
+    [
+      "Day_of_week_Wednesday",
+      0.002559099740537664
+    ],
+    [
+      "Road_allignment_Steep grade downward with mountainous terrain",
+      0.0025244076607693292
+    ],
+    [
+      "Type_of_vehicle_Public (13?45 seats)",
+      0.002475430049943786
+    ],
+    [
+      "Sex_of_driver_Unknown",
+      0.002417883641006715
+    ],
+    [
+      "Type_of_vehicle_Stationwagen",
+      0.0023810392211323713
+    ],
+    [
+      "Road_surface_type_Other",
+      0.0022214568690170898
+    ],
+    [
+      "Weather_conditions_Fog or mist",
+      0.0021677749696900873
+    ],
+    [
+      "Weather_conditions_Snow",
+      0.0020623936505091527
+    ],
+    [
+      "Type_of_vehicle_Ridden horse",
+      0.001908674444860567
+    ],
+    [
+      "Cause_of_accident_Changing lane to the left",
+      0.001867367729991363
+    ],
+    [
+      "Driving_experience_Above 10yr",
+      0.0017763707909464286
+    ],
+    [
+      "Cause_of_accident_Overloading",
+      0.0016432468132594393
+    ],
+    [
+      "Cause_of_accident_No priority to pedestrian",
+      0.0015963490062342477
+    ],
+    [
+      "Driving_experience_unknown",
+      0.0015586048831857718
+    ],
+    [
+      "Type_of_vehicle_Bicycle",
+      0.0015195450119148803
+    ],
+    [
+      "Road_allignment_Tangent road with mild grade and flat terrain",
+      0.0015162072909686668
+    ],
+    [
+      "Day_of_week_Tuesday",
+      0.0014332866999795673
+    ],
+    [
+      "Road_surface_conditions_Snow",
+      0.0013077845696252797
+    ],
+    [
+      "Road_allignment_Steep grade upward with mountainous terrain",
+      0.0012673433834396914
+    ],
+    [
+      "Road_surface_type_Asphalt roads with some distress",
+      0.001075042344756733
+    ],
+    [
+      "Cause_of_accident_Turnover",
+      0.0010441158049837797
+    ],
+    [
+      "Type_of_vehicle_Automobile",
+      0.000854424564999202
+    ],
+    [
+      "Road_allignment_Tangent road with rolling terrain",
+      0.0007977003661431187
+    ],
+    [
+      "Driving_experience_2-5yr",
+      0.0007577057799110267
+    ],
+    [
+      "Road_surface_type_Asphalt roads",
+      0.000665762952199175
+    ],
+    [
+      "Sex_of_driver_Male",
+      0.0006535621789496303
+    ],
+    [
+      "Type_of_vehicle_Unknown",
+      0.0005693028401540935
+    ],
+    [
+      "Road_allignment_Escarpments",
+      0.000563546856637661
+    ],
+    [
+      "Driving_experience_5-10yr",
+      0.000515360855296127
+    ],
+    [
+      "Road_allignment_Gentle horizontal curve",
+      0.0003650788196861431
+    ],
+    [
+      "Cause_of_accident_Unknown",
+      0.000346939302085504
+    ],
+    [
+      "Types_of_Junction_X Shape",
+      0.00016659608899849106
+    ],
+    [
+      "Age_band_of_driver_18-30",
+      2.8304513340809396e-06
+    ],
+    [
+      "Cause_of_accident_Moving Backward",
+      6.18612668327285e-07
+    ],
+    [
+      "Weather_conditions_Windy",
+      1.0513660456048377e-07
+    ],
+    [
+      "Type_of_vehicle_Bajaj",
+      0.0
+    ],
+    [
+      "Type_of_vehicle_Public (12 seats)",
+      0.0
+    ],
+    [
+      "Type_of_vehicle_Taxi",
+      0.0
+    ],
+    [
+      "Weather_conditions_Raining",
+      0.0
+    ],
+    [
+      "Weather_conditions_Raining and Windy",
+      0.0
+    ],
+    [
+      "Road_surface_conditions_Flood over 3cm. deep",
+      0.0
+    ],
+    [
+      "Road_allignment_Tangent road with flat terrain",
+      0.0
+    ],
+    [
+      "Road_allignment_Tangent road with mountainous terrain and",
+      0.0
+    ],
+    [
+      "Road_allignment_Unknown",
+      0.0
+    ],
+    [
+      "Cause_of_accident_Changing lane to the right",
+      0.0
+    ],
+    [
+      "Cause_of_accident_Driving under the influence of drugs",
+      0.0
+    ],
+    [
+      "Cause_of_accident_Drunk driving",
+      0.0
+    ],
+    [
+      "Cause_of_accident_Getting off the vehicle improperly",
+      0.0
+    ],
+    [
+      "Cause_of_accident_Improper parking",
+      0.0
+    ],
+    [
+      "Cause_of_accident_Other",
+      0.0
+    ],
+    [
+      "Cause_of_accident_Overturning",
+      0.0
+    ]
+  ]
+}
