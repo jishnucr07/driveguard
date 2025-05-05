@@ -2,10 +2,14 @@
 
 **DriveGuard** is an intelligent accident detection system that uses machine learning to analyze driving patterns and detect potential accidents in real-time. The system consists of a Flutter mobile application frontend and a Python-based machine learning backend.
 
+DriveGuard consists of:
+- A **Flutter mobile application** for real-time data collection, user interface, and notifications.
+- A **Python-based backend** running machine learning models (CNN, LSTM, LightGBM, etc.) for classifying driver behavior and predicting accidents.
+
 ---
 
 ## 🧱 Project Structure
-
+```bash
 driveguard/
 ├── flutter-app/ # Flutter frontend
 │ └── lib/
@@ -14,7 +18,7 @@ driveguard/
 ├── ml/ # Python backend (Machine Learning models)
 ├── app3.py # Main server file to run ML backend
 
-
+```
 ---
 
 ## ⚙️ Configuration
@@ -39,8 +43,12 @@ Due to a known bug, absolute paths are used in the code. Update these paths to m
 
 ### 1. Start the ML Backend
 
-Navigate to the root of the project and run:
+Navigate to the accident_prd folder of the project and run:
 
 ```bash
 python app3.py
+```
+Navigate to the flutter folder directory
 
+```bash
+flutter run
